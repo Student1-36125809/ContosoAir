@@ -31,7 +31,7 @@ steps:
     azureResourceManagerConnection: 'Azure Connection'
     subscriptionId: '7495853b-8ff7-409a-ad39-bff2d0af6c98'
     action: 'Create Or Update Resource Group'
-    resourceGroupName: '$(resourcegroup)'
+    resourceGroupName: 'rg-lod'
     location: 'East US'
     templateLocation: 'Linked artifact'
     csmFile: '$(Pipeline.Workspace)/drop/Templates/azuredeploy.json'
